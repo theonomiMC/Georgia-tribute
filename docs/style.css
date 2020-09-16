@@ -104,7 +104,16 @@ p{
 a:hover{
   color: #8B0000;
 }
-
+@media screen and (max-width: 799px) {
+   .sidenav {
+     display:none;  
+   }
+   #main{
+    width:100%;
+    float:left;
+    margin-left: 20px;
+  }
+}
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
