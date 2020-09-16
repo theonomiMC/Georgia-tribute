@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing:border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  line-height:1.5;
+  font-family: 'Roboto Slab', serif;
+  font-weight:500;
+  background-color:#f9f5e8;
+}
+
+.sidenav {
+  height: 100%;
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  font-family: 'PT Serif', serif;
+}
+.sidenav a {
+  padding: 7px 5px 8px 15px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family:'georgia';
+  color: #818181;
+  display: block;
+  letter-spacing:1.1px;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+#main{
+  margin-left: 160px;
+  font-size: 17px;
+  padding: 0 40px;
+  
+}
+.logo{
+  width:5%;
+}
+.img{
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  display: block;
+  margin: 25px auto;
+  border-radius:4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#image{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius:4px;
+}
+h1, h2{
+  text-align: center;
+  line-height: 1.6;
+}
+h1{
+  text-shadow: 3px 3px 7px rgba(17,8,5,0.65);
+  color: #333;
+  margin: 1.5em auto 1.5em auto;
+  text-transform:uppercase; 
+  letter-spacing: 3px;
+  color: #202020; 
+  font-size: calc(1.5em + 1vw);
+  font-family: 'Libre Baskerville', serif;
+  font-weight:700;
+}
+p{
+  text-align: justify;
+}
+
+#img-caption,figcaption{
+  font-size: 12px; 
+  color: #555f61;
+  font-style: italic;
+  padding: 2px;
+  text-align:center;
+}
+
+.links, span{
+  text-decoration: none;
+  color: #232323;
+  font-weight: bold;
+}
+
+a:hover{
+  color: #8B0000;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+section{
+  margin-top: 70px;
+  position: relative;
+}
+.profile-link {
+	display: flex;
+	height: 80px;
+  justify-content: center;
+   } 
+.wrapper {
+  display: inline-flex;
+  align-self: flex-end;
+  
+ } 
+.wrapper i {
+ padding: 10px; 
+ text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6); 
+ transition: all ease-in-out 150ms;
+}
+.wrapper a{
+     color:#DDDDDD;
+     font-size:10px;  
+ }
+.wrapper i:hover {
+  opacity: 0.7; 
+}
