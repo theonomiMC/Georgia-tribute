@@ -145,11 +145,11 @@ section{
  } 
 .wrapper i {
  padding: 10px; 
- text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6); 
+ text-shadow: 0px 5px 8px rgba(0, 0, 0, 0.6); 
  transition: all ease-in-out 150ms;
 }
 .wrapper a{
-     color:#DDDDDD;
+     color:#9a9a9a;
      font-size:10px;  
  }
 .wrapper i:hover {
